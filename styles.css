@@ -1,0 +1,54 @@
+:root {
+    --background-color : #ffffff;
+    --color-text : #002333;
+    --color-secundaria : #DEEFE7;
+    --color-tercearia : #159A9C;
+    --color-destaque : #B4BEC9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-tercearia);
+}
+
+.navset div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    margin: 15px;
+    padding: 18px;
+    color: var(--color-text);
+}
+
+.navbar a:hover {
+    background-color: var(--color-destaque);
+    }
+
+.navbar {
+    position: fixed;
+    text-align: right;
+    top: 5;
+    
+    width: 100%;
+    padding: 30px;
+    background-color: var(--background-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
