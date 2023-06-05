@@ -33,8 +33,10 @@ body {
     }
 
 .navbar {
+    /* display: flex; */
     position: fixed;
     text-align: right;
+    justify-content: center;
     top: 0;
     right: 0;
     left: 0;
@@ -44,7 +46,10 @@ body {
 
 #navtext {
     margin-right: 15%;
-    vertical-align: middle;
+    /* display: flex; */
+    /* vertical-align: middle; */
+    justify-content: center;
+
 }
 
 #logo {
