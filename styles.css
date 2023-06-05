@@ -16,9 +16,13 @@ body {
     background-color: var(--color-tercearia);
 }
 
-.navset div{
-    margin-left: auto;
-    margin-right: auto;
+header {
+position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+
 }
 
 .navbar a {
@@ -33,20 +37,29 @@ body {
     }
 
 .navbar {
-    /* display: flex; */
-    position: fixed;
-    text-align: right;
+    display: flex;
+    /* position: fixed; */
+    /* text-align: right; */
     justify-content: center;
-    top: 0;
+    align-items: center;
+    
+    height: 40%;
+    /* top: 0;
     right: 0;
-    left: 0;
+    left: 0; */
+    /* block-size: 60%; */
     background-color: var(--background-color);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
+.navbar a {
+    text-align: right;
+    right: 0;
+}
 
 #navtext {
-    margin-right: 15%;
-    /* display: flex; */
+    /* margin-right: 15%; */
+    /* align-items: center; */
+    display: flex;
     /* vertical-align: middle; */
     justify-content: center;
 
@@ -56,10 +69,10 @@ body {
     margin: 0;
     padding: 0;
     float: left;
-    width: 300px;
+    width: 333px;
     height: 100px;
     overflow: hidden;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 footer {
