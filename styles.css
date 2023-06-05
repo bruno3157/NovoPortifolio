@@ -38,7 +38,6 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    padding: px;
     background-color: var(--background-color);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
