@@ -40,8 +40,10 @@ position: fixed;
     display: flex;
     /* position: fixed; */
     /* text-align: right; */
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    justify-content: space-between;
+    
     
     height: 40%;
     /* top: 0;
@@ -54,14 +56,15 @@ position: fixed;
 .navbar a {
     text-align: right;
     right: 0;
-}
+    padding: 10px;
+  }
 
 #navtext {
     /* margin-right: 15%; */
     /* align-items: center; */
     display: flex;
     /* vertical-align: middle; */
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 
