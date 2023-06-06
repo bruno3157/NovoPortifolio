@@ -21,8 +21,6 @@ position: fixed;
     top: 0;
     right: 0;
     left: 0;
-
-
 }
 
 .navbar a {
@@ -81,7 +79,7 @@ position: fixed;
 footer {
 
     bottom: 0;
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     left: 0;
     text-align: center;
@@ -91,9 +89,29 @@ footer {
     background-color: var(--color-destaque);
     }
 
+    .box1 {
+        background-color: var(--color-gostei);
+        left: 0;
+        right: 0;
+        height: 300px;
+    }
+    .box2 {
+        background-color: var(--color-secundaria);
+        left: 0;
+        right: 0;
+        height: 300px;
+    }
+    .box3 {
+        background-color: var(--color-tercearia);
+        left: 0;
+        right: 0;
+        height: 300px;
+    }
+
 @media ( max-width: 450px) {
     .navbar a {
         font-size: 1rem;
+    
     }
         
     .navbar {
