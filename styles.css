@@ -15,6 +15,10 @@
 body {
     background-color: var(--color-tercearia);
 }
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 header {
 position: fixed;
