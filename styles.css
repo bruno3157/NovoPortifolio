@@ -65,8 +65,9 @@ position: fixed;
     display: flex;
     /* vertical-align: middle; */
     /* justify-content: center; */
-
 }
+
+
 
 #logo {
     margin: 0;
@@ -76,6 +77,19 @@ position: fixed;
     height: 100px;
     overflow: hidden;
     /* margin-left: 10%; */
+}
+
+@media ( max-width: 450px) {
+    .navbar a {
+        font-size: 1rem;
+    }
+    #logo {
+        width: 100px;
+        height: 33px;
+    }
+
+
+
 }
 
 footer {
