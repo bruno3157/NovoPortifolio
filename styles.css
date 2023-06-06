@@ -160,18 +160,19 @@ footer {
         }
 
 }
-.apresentacao_about div {
-    /* width: 500px; */
-}
 
 #st_about {
     width: 600px;
-    height: 200px;
+    height: 252px;
     text-align: justify;
 }
 
 #about {
 display: flex;
 justify-content: space-around;
+align-items: center;
+margin-top: 50px;
+margin-left: 100px;
+margin-right: 100px;
 
 }
